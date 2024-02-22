@@ -1,0 +1,55 @@
+
+.content{
+    width: 100%;
+}
+.content--header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .content--title{
+        color: #27374d;
+    }
+    .header--activity{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .calender-box{
+            margin-right:194px ;
+        }
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            flex-direction: column;
+            gap: 2rem;
+            .close-button {
+                background: none;
+                border: none;
+                font-size: 20px;
+                cursor: pointer;
+              }
+          }
+        .button{
+            display: flex;
+            align-items: center;
+            left: 1rem;
+            margin-left:61rem;
+            position: absolute;
+            
+            .add-task{
+                padding: 0.5rem 1rem;
+                background-color: aliceblue;
+                border-radius: 30px;
+                border: solid 1px aliceblue;
+                margin-left: 8rem;
+                cursor: pointer;
+            
+            }
+        }
+        
+    }
+    
+}

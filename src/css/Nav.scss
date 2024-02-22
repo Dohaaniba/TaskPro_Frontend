@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: rgb(14, 13, 13);
+        height: 55px;
+        width: 100%;
+        position: fixed;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        overflow-y: hidden;
+      }
+      
+      .logo {
+        height: 34px;
+        width: 34px;
+        margin: 20px;
+        cursor: pointer;
+      }
+      
+      .signup{
+        --color: #560bad;
+        font-family: inherit;
+        display: inline-block;
+        width: 8em;
+        height: 2.6em;
+        line-height: 2.5em;
+        margin: 20px;
+        position: relative;
+        overflow: hidden;
+        border: 2px solid var(--color);
+        transition: color .5s;
+        z-index: 1;
+        font-size: 17px;
+        border-radius: 6px;
+        font-weight: 500;
+        color: var(--color);
+        background-color: white;
+        cursor: pointer;
+      }
+      .signup:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        background: var(--color);
+        height: 150px;
+        width: 200px;
+        border-radius: 50%;
+       }
+       
+       .signup:hover {
+        color: #fff;
+       }
+       
+       .signup:before {
+        top: 100%;
+        left: 100%;
+        transition: all .7s;
+       }
+       
+       .signup:hover:before {
+        top: -30px;
+        left: -30px;
+       }
+       
+       .signup:active:before {
+        background: #3a0ca3;
+        transition: background 0s;
+       }
+
