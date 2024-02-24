@@ -1,9 +1,18 @@
-# React + Vite
+# TaskPro
+TaskPro is a task management application designed to simplify task management, helping users stay organized and focused on their priorities.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Key Features
+Task Creation: Easily create tasks with titles, descriptions, due dates, and status (new, in progress, done).
+Deadline Tracking: Keep track of task deadlines with automatic reminders.
+Task Status: Tasks can be assigned statuses such as new, in progress, or done, allowing users to easily track their progress.
+Reminder Notifications: Receive timely reminders for upcoming task deadlines to ensure tasks are completed on time.
+Task Editing and Deletion: Users can edit or delete tasks at any time, allowing for flexibility in task management.
 
-Currently, two official plugins are available:
+## Usage
+Register or log in to your TaskPro account.
+Create tasks by providing details such as title, description, due date, and status.
+Assign tasks to team members if applicable.
+Receive reminders for upcoming task deadlines.
+Update task statuses as tasks progress.
+Edit or delete tasks as needed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# TaskPro_Frontend" 
