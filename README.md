@@ -2,7 +2,6 @@
 TaskPro is a task management application designed to simplify task management, helping users stay organized and focused on their priorities.
 
 ## Key Features
-- Java 8 or higher
 - Task Creation: Easily create tasks with titles, descriptions, due dates, and status (new, in progress, done).
 - Deadline Tracking: Keep track of task deadlines with automatic reminders.
 - Task Status: Tasks can be assigned statuses such as new, in progress, or done, allowing users to easily track their progress.
