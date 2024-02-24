@@ -10,10 +10,11 @@ TaskPro is a task management application designed to simplify task management, h
 
 
 ## Usage
-Register or log in to your TaskPro account.
-Create tasks by providing details such as title, description, due date, and status.
-Assign tasks to team members if applicable.
-Receive reminders for upcoming task deadlines.
-Update task statuses as tasks progress.
-Edit or delete tasks as needed.
+1. Register or log in to your TaskPro account.
+2. Create tasks by providing details such as title, description, due date, and status.
+3. Assign tasks to team members if applicable.
+4. Receive reminders for upcoming task deadlines.
+5. Update task statuses as tasks progress.
+6. Edit or delete tasks as needed.
+
 
